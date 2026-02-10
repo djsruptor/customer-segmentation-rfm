@@ -1,0 +1,28 @@
+rfm:
+  method: quantile
+  n_bins: 5
+
+segmentation:
+  top_customers:
+    any_of:
+      - R_min: 3
+        F_min: 4
+      - R_min: 3
+        M_min: 4
+
+  at_risk:
+    any_of:
+      - R_max: 2
+        F_min: 3
+      - R_max: 2
+        M_min: 3
+
+  new_customers:
+    R: 5
+    F_max: 2
+    M_min: 2
+    
+  dormant:
+    R: 1
+    F_max: 2
+    M_max: 2
