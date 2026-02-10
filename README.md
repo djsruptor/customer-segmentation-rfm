@@ -170,6 +170,7 @@ python -m app.app
 customer_segmentation/
 ├── README.md
 ├── requirements.txt
+├── .gitattributes
 ├── configs/
 │   └── default.yaml
 ├── data/
