@@ -162,8 +162,8 @@ python -m app.app
 
 5. Notebooks (optional)
 
-`01_eda_pre_segmentation.ipynb`: data validation and exploratory analysis
-`02_segment_analysis.ipynb`: segment profiling and behavioral comparison
+- `01_eda_pre_segmentation.ipynb`: data validation and exploratory analysis
+- `02_segment_analysis.ipynb`: segment profiling and behavioral comparison
 
 ## Repository Structure
 ```bash
