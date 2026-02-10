@@ -157,6 +157,7 @@ This will generate:
 `data/mart/customer_segments.parquet`
 
 4. Run the dashboard application
+
 `python -m app.app`
 
 5. Notebooks (optional)
